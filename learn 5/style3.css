@@ -1,0 +1,43 @@
+div {
+    text-align: justify;
+}
+
+.center-container {
+    text-align: center; /* Центрируем содержимое по горизонтали */
+
+}
+
+h1 {
+    display: inline-block; /* Делаем блочный элемент инлайновым */
+    background-color: grey; /* Цвет фона */
+}
+
+h2 {
+    color: green;
+}
+
+ol>li {
+    color: red;
+}
+
+b {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ul>li {
+    color: lightcoral;
+    font-style: italic;
+}
+
+em {
+    color: blue;
+    font-weight: bold;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 35px;
+    font-size: 12px;
+}

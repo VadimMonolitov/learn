@@ -1,0 +1,71 @@
+/* p {
+    font-style: italic;
+    color: red;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Arial;
+    line-height: 30px;
+}
+
+.first_p {
+    color: green;
+    font-style: normal;
+}
+*/
+
+.second_p {
+    color: red;
+    text-align: center;
+    text-indent: 0;
+} 
+
+p {
+    font: italic bold 16px/30px Arial;
+    text-indent: 30px;
+}
+
+h1 {
+    font: normal 20px Verdana;
+}
+
+/* h1 {
+    font-weight: normal;
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    width: 300px;
+    color:aqua;
+    text-align: right;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+
+table {
+    vertical-align: top;
+    width: 400px;
+    height: 200px;
+}
+
+th {
+    text-align: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td {
+    font-weight: bold;
+    text-align: center;
+}
+
+th, h1, h2 {
+    font-weight:normal;
+}
