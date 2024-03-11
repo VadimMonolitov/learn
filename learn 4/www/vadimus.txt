@@ -1,0 +1,8 @@
+1 способ(подключение css файла) -     <link rel="stylesheet" href="style.css">
+2 способ (задать стили в файле hmtl) -    
+<style>
+        h1{
+            color:blue;
+        }
+</style>
+3 способ (применение стиля в самом теге) - <h2 style="color: green;">PHP и JavaScript</h2>
