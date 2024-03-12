@@ -3,14 +3,13 @@ div {
 }
 
 .center-container {
-    text-align: center; /* Центрируем содержимое по горизонтали */
+    text-align: center; 
 
 }
 
 h1 {
-    display: inline-block; /* Делаем блочный элемент инлайновым */
-    background-color: grey; /* Цвет фона */
-}
+    display: inline-block; 
+    background-color: grey; 
 
 h2 {
     color: green;
