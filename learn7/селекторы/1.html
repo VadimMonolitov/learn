@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta author="Вадим полторака">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #test a:link, #test a:visited {
+                text-decoration: none;
+                color: red; 
+        }
+        #test a:hover {
+            text-decoration: underline;
+            color: lightblue;
+        }
+
+        .www a:link, .www a:visited {
+            color:lightblue;
+        }
+        .www a:hover {
+            text-decoration: none;
+        }
+
+        #test>a.www:link, #test>a.www:visited {
+            color: pink;
+        }
+
+        #test>a.www:hover {
+            color:aquamarine;
+        }
+
+        #test>a.www:active {
+            color: blueviolet;
+        }
+
+        .eee>a.www:link {
+            font-style: italic;
+            color: black
+        }
+
+        .eee>a.www:visited {
+            color: blue;
+        }
+
+        .eee>a.www:hover {
+            text-decoration: line-through;
+            color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div id="test">
+        <a href="#">CSS</a>
+        <a href="#" class="www">test</a>
+    </div>
+    <div class="www">
+        <a href="#">www</a>
+    </div>
+    <div class="eee">
+        <a href="#" class="www">eee</a>
+    </div>
+</body>
+</html>
